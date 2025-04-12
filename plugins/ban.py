@@ -2,9 +2,9 @@ import random
 import re
 import time
 from datetime import datetime, timedelta
-from pyrofork import Client, filters
-from pyrofork.types import Message, ChatPermissions, ChatMemberUpdated
-from pyrofork.errors import RPCError
+from pyrogram import Client, filters
+from pyrogram.types import Message, ChatPermissions, ChatMemberUpdated
+from pyrogram.errors import RPCError
 from config import BAN_RESPONSES, UNBAN_RESPONSES
 
 # Helper function to extract user and reason from command

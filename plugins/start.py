@@ -1,5 +1,5 @@
-from pyrofork import Client, filters
-from pyrofork.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram import Client, filters
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from database import Users
 from config import START_MESSAGE, START_IMAGE_URL, SUPPORT_CHAT_URL, UPDATE_CHANNEL_URL
 

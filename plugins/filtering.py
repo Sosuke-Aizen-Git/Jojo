@@ -1,8 +1,8 @@
 import re
 import random
-from pyrofork import Client, filters
-from pyrofork.types import Message
-from pyrofork.errors import RPCError
+from pyrogram import Client, filters
+from pyrogram.types import Message
+from pyrogram.errors import RPCError
 from database import db
 
 # Collection for filters

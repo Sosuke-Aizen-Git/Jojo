@@ -1,7 +1,7 @@
 import time
 from datetime import datetime, timedelta
-from pyrofork import Client, filters
-from pyrofork.types import Message
+from pyrogram import Client, filters
+from pyrogram.types import Message
 from database import Users, Chats
 from config import OWNER_ID, SUDO_USERS
 

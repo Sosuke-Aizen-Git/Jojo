@@ -1,5 +1,5 @@
-from pyrofork import Client, filters
-from pyrofork.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram import Client, filters
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from config import HELP_MESSAGE, HELP_GENERAL, HELP_ADMIN, HELP_UTILITY
 
 # Help command handler

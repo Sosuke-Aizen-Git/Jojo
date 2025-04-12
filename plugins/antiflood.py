@@ -1,9 +1,9 @@
 import time
 import asyncio
 from collections import defaultdict
-from pyrofork import Client, filters
-from pyrofork.types import Message, ChatPermissions
-from pyrofork.errors import RPCError
+from pyrogram import Client, filters
+from pyrogram.types import Message, ChatPermissions
+from pyrogram.errors import RPCError
 from database import Chats
 
 # Default antiflood settings

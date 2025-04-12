@@ -1,7 +1,7 @@
 import asyncio
 import logging
-from pyrofork import Client, idle
-from pyrofork.errors import RPCError
+from pyrogram import Client, idle
+from pyrogram.errors import RPCError
 from config import BOT_TOKEN, API_ID, API_HASH
 
 # Configure logging

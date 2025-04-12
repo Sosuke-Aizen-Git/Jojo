@@ -1,7 +1,7 @@
 from datetime import datetime
-from pyrofork import Client, filters
-from pyrofork.types import Message, ChatMemberUpdated
-from pyrofork.errors import RPCError
+from pyrogram import Client, filters
+from pyrogram.types import Message, ChatMemberUpdated
+from pyrogram.errors import RPCError
 
 # Helper function to extract user from command
 async def extract_user(client, message):
